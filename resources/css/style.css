@@ -28,23 +28,23 @@ h4 {
 
 /* Header. */
 
-header {
+.logo {
   background-color: black;
   color: white;
 }
 
-header .container {
+.logo .container {
   display: flex;
   align-items: center;
   padding: 12px 0 12px 0.5em;
 }
 
-header img {
+.logo img {
   height: 1.5em;
   padding-right: 15px;
 }
 
-/* Banner */
+/* Banner. */
 
 .banner {
   background: url(../images/moto.jpeg);
@@ -180,7 +180,7 @@ nav ul {
   }
 }
 
-/* Business information. */
+/* Business information section. */
 
 .business-info {
   display: flex;
@@ -211,7 +211,7 @@ nav ul {
 }
 
 
-/* Footer */
+/* Footer. */
 
 footer {
   background-color: black;
